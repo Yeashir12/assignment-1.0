@@ -139,10 +139,11 @@ bottom: 2993px;
 justify-content: flex-start;
 align-items: center;
 padding: 80px 97px 80px 97px;
-position: absolute;
+/* position: absolute; */
 /* border: 2px solid red; */
 background-color: #0D132105;
 border-radius: 16px;
+margin-left: 108px;
     }
     
 /* Big heading Stars Here */
@@ -272,7 +273,7 @@ font-weight: 400;
     /* Third page start here */
 
      .Third-Page{
-        position: absolute;
+        /* position: absolute; */
 width: 1140px;
 height: 777px;
 left: 116px;
@@ -285,6 +286,7 @@ align-items: center;
 padding: 0px;
 /* border: 2px solid red; */
 margin-top: 108px;
+margin-left: 97px;
 
      }
 
@@ -324,6 +326,70 @@ padding: 32px;
 box-sizing: border-box;
 border: 1px solid rgba(13, 19, 33, 0.2);
 border-radius: 16px;
-border: 2px solid red;
+/* border: 2px solid red; */
 margin-top: 50px;
     }
+
+
+    /* target page start here */
+
+    .last-part{
+        /* position: absolute; */
+        width: 1140px;
+        height: 1442px;
+        left: 150px;
+        right: 150px;
+        top: 3266px;
+        bottom: 537px;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        padding: 0px;
+        border: 2px solid red;
+        margin: 0 auto;
+        margin-top: 108px;
+    }
+
+    .last-part-head{
+
+    }
+
+    .tergets{
+        /* display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; */
+display: inline-flex;
+width: 364px;
+height: 300px;
+border-radius: 16px;
+        background-color: #FF4C1E0D;
+        margin-left: 4px;
+        margin-right: 3px;
+    }
+
+    .terget-image{
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+
+    .terget-h{
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+
+    .terget-p{
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+
+    .terget-button{
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+
+    .mother{
+        display: inline-block;
+        margin-top: 50px;
+    }
+
