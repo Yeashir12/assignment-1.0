@@ -124,7 +124,135 @@ align-items: center;
         
         
     }
+
+
+
+    /* Big place starts here */
+
+    .big-place{
+        width: 1140px;
+height: 1395px;
+left: 115px;
+right: 150px;
+top: 990px;
+bottom: 2993px;
+justify-content: flex-start;
+align-items: center;
+padding: 80px 97px 80px 97px;
+position: absolute;
+/* border: 2px solid red; */
+background-color: #0D132105;
+border-radius: 16px;
+    }
     
+/* Big heading Stars Here */
+    .big-heading{
+       text-align: center;
+    }
+
+    .big-why{
+        margin-top: 80px;
+        color: #0D1321;
+        font-size: 32px;
+    }
+
+    .big-it{
+        margin-top: 33px;
+        font-size: 16px;
+font-weight: 400;
+color: #0D1321;
+    }
+/* Big heading ends here */
+
+
+/* First suc start here */
+
+    .big-place .first-succ{
+ 
+        width: 946px;
+height: 336px;
+display: flex;
+padding: 48px;
+margin: 32px 0px;
+/* border: 2px solid black; */
+background-color: #FFFFFF;
+border-radius: 16px;
+
+    }
+
+    .first-succ{
+        width: 477px;
+height: 220px;
+display: flex;
+margin: 0px 10px;
+    }
+
+    .first-succ-head{
+        color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+margin-top: 20px;
+    }
+
+    .first-succ-para{
+   
+        margin-top: 30px;
+        color: rgb(13, 19, 33);
+font-size: 14px;
+font-weight: 400;
+text-align: left;
+
+    }
+    .big-first-button{
+        position: static;
+width: 150px;
+height: 48px;
+display: flex;
+padding: 12px 20px 12px 20px;
+        margin-top: 40px;
+
+    }
+    div ul li{
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .big-first-img{
+        margin-right: 2px;
+    }
 
     
+
+    .big-place .second-succ {
+        width: 946px;
+height: 336px;
+display: flex;
+padding: 48px;
+margin: 32px 0px;
+/* border: 2px solid black; */
+background-color: #FFFFFF;
+border-radius: 16px;
+
+    }
     
+    .big-second-img{
+        margin-right: 40px;
+
+    }
+
+    .second-succ-head{
+flex-direction: column;
+color: rgba(13, 19, 33, 0.7);
+font-size: 24px;
+font-weight: 700;
+margin-top: 20px;
+    }
+
+    .second-succ-para{
+        margin-top: 30px;
+        color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+    }
