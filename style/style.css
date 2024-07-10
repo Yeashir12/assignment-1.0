@@ -326,7 +326,6 @@ padding: 32px;
 box-sizing: border-box;
 border: 1px solid rgba(13, 19, 33, 0.2);
 border-radius: 16px;
-/* border: 2px solid red; */
 margin-top: 50px;
     }
 
@@ -334,18 +333,15 @@ margin-top: 50px;
     /* target page start here */
 
     .last-part{
-        /* position: absolute; */
         width: 1140px;
-        height: 1442px;
+        height: 642px;
         left: 150px;
         right: 150px;
         top: 3266px;
         bottom: 537px;
         display: flex;
-        flex-direction: column;
-        /* align-items: center; */
+        flex-direction: column;       
         padding: 0px;
-        border: 2px solid red;
         margin: 0 auto;
         margin-top: 108px;
     }
@@ -355,10 +351,7 @@ margin-top: 50px;
     }
 
     .tergets{
-        /* display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center; */
+    
 display: inline-flex;
 width: 364px;
 height: 300px;
@@ -393,3 +386,90 @@ border-radius: 16px;
         margin-top: 50px;
     }
 
+    .tergets-html{
+        display: inline-flex;
+        width: 364px;
+        height: 300px;
+        border-radius: 16px;
+                background-color: #FF4C1E0D;
+                margin-left: 4px;
+                margin-right: 3px;
+                 
+    }
+
+    .tergets-html-one{
+
+        display: inline-flex;
+width: 364px;
+height: 300px;
+border-radius: 16px;
+        background: rgba(255, 76, 30, 0.05);
+        background-color: #FF4C1E0D;
+        margin-left: 4px;
+        margin-right: 3px;
+    }
+
+    .tergets-css-one{
+        display: inline-flex;
+width: 364px;
+height: 300px;
+border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+background-color: #004CE80D;
+        margin-left: 4px;
+        margin-right: 3px;
+    }
+
+    .tergets-js-one{
+        display: inline-flex;
+width: 364px;
+height: 300px;
+border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+background-color: #FFDF000D;
+        margin-left: 4px;
+        margin-right: 3px;
+    }
+ 
+ 
+    .last-option{
+        margin-left: 110px;
+        width: 1044px;
+height: 286px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+/* align-items: center; */
+padding: 0px;
+background-image: url(../assets/handshake.jpg);
+background-color: rgb(54, 34, 34);
+background-blend-mode: overlay;
+background-position: center;
+    }
+
+     .dami-h{
+        margin-left: 400px;
+        margin-top: 5px;
+        color: rgb(255, 255, 255);
+     }
+
+     .hummy-p{
+        color: rgb(255, 255, 255);
+        margin-top: 20px;
+        margin-left: 300px;
+     }
+
+     .feedbac{
+        width: 548px;
+height: 57px;
+margin-top: 40px;
+margin-left: 170px;
+     }
+
+
+     .now{
+        width: 120px;
+height: 58px;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+     }
