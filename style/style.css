@@ -10,6 +10,10 @@ body{
     font-family: "Azeret Mono", monospace;
 }
 
+.first{
+    margin-bottom: 1px;
+}
+
 /* nav styles starts here*/
     nav{
         display: flex;
@@ -27,6 +31,7 @@ body{
 
     .color-code{
         color: #0D1321;
+        
     }
      
     .btn-primary{
@@ -43,10 +48,10 @@ body{
     }
     .developer-main{
         width: 1440px;
-height: 652px;
+height: 852px;
 
 
-        top: 131px;
+        top: 100px;
 bottom: 4462px;
 background-image: url(../assets/Hero-bg.png);
 background-position: center;
@@ -54,10 +59,72 @@ background-repeat: no-repeat;
 
     }
 
+    .custom{
+        width: 998px;
+height: 582px;
+left: 221px;
+right: 221px;
+top: 157px;
+bottom: 4506px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    }
+
     .bc-em{
+        background-position: center;
+        width: 240.28px;
+        margin-right: 90px;
+/* height: 240px; */
+        margin-top: 300px;
+        margin-left: 450px;
+
+
+    }
+
+    .text-one{
+        text-align: center;
         display: flex;
-        justify-content: center;
+        
+    }
+    .llll{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 29px;
+        font-weight: 800;
+        margin-top: 35px;
+        margin-left: 300px;
+        text-align: center;
+    }
+    .p-class{
+        width: 852px;
+height: 52px;
+align-items: center;
+        color: rgb(13, 19, 33);
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 35px;
+        margin-left: 300px;
+        
+        text-align: center;
+        display: flex;
+    }
+
+    .button-ani{
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 25px;
+        color: #FFFFFF;
+        padding: 25px 28px;
+        border-radius: 8px;
+        margin-top: 35px;
+        margin-left: 360px;
+        background-color: #0D1321
+        
+        
     }
     
+
     
     
