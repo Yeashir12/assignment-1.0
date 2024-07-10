@@ -12,6 +12,7 @@ body{
 
 .first{
     margin-bottom: 1px;
+
 }
 
 /* nav styles starts here*/
@@ -31,6 +32,7 @@ body{
 
     .color-code{
         color: #0D1321;
+        margin-right: 550px;
         
     }
      
@@ -332,8 +334,8 @@ margin-top: 50px;
 
     /* target page start here */
 
-    .last-part{
-        width: 1140px;
+    /* .last-part{
+        width: 1440px;
         height: 642px;
         left: 150px;
         right: 150px;
@@ -344,7 +346,24 @@ margin-top: 50px;
         padding: 0px;
         margin: 0 auto;
         margin-top: 108px;
-    }
+    } */
+
+
+        .last-part{
+            margin-left: 93px;
+            margin-bottom: 80px;
+            width: 1140px;
+height: 463px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0;
+/* border: 2px solid red; */
+
+        }
+    /* .third-page-headline{
+        margin-right: 1500px;
+    } */
 
     .last-part-head{
 
@@ -384,6 +403,7 @@ border-radius: 16px;
     .mother{
         display: inline-block;
         margin-top: 50px;
+        
     }
 
     .tergets-html{
@@ -433,9 +453,9 @@ background-color: #FFDF000D;
  
  
     .last-option{
-        margin-left: 110px;
-        width: 1044px;
-height: 286px;
+        margin-left: 100px;
+        width: 1130px;
+height: 246px;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -445,6 +465,7 @@ background-image: url(../assets/handshake.jpg);
 background-color: rgb(54, 34, 34);
 background-blend-mode: overlay;
 background-position: center;
+border-radius: 16px;
     }
 
      .dami-h{
