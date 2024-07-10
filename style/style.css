@@ -494,3 +494,65 @@ height: 58px;
 border-radius: 8px;
 background: rgb(255, 255, 255);
      }
+
+
+     div li{
+        list-style: none;
+        text-decoration: none;
+        text-decoration-style: none;
+     }
+
+     /* .area-last{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+     } */
+
+
+            .icon{
+                margin-left: 95px;
+                margin-top: 20px;
+                width: 1140px;
+height: 100px;
+top: 5145px;
+/* display: flex; */
+/* flex-direction: column; */
+/* justify-content: center; */
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);
+/* border: 2px solid red; */
+            }
+
+     /* .lik{
+        list-style: none;
+        text-decoration: none;
+        margin-left: 850px;
+     } */
+
+     /* .like-two{
+        list-style: none;
+        text-decoration: none;
+        margin-left: 1100;
+     } */
+
+     .maraton{
+        margin-left: 950px;
+     }
+        
+     }
+
+     /* .marathon-two{
+        margin-left: 1020px;
+        margin-bottom: 20px;
+     } */
+
+     /* .leatest-h{
+        margin-top: 20px;
+     } */
+
+   .last-abd{
+    width: 390px;
+height: 24px;
+font-size: 50px;
+margin-top: 20px;
+   }
