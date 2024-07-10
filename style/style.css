@@ -263,7 +263,45 @@ font-weight: 400;
         display: flex;
         padding: 48px;
         margin: 32px 0px;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         background-color: #FFFFFF;
         border-radius: 16px;
     }
+
+
+    /* Third page start here */
+
+     .Third-Page{
+        position: absolute;
+width: 1140px;
+height: 777px;
+left: 116px;
+right: 152px;
+top: 2340px;
+bottom: 2128px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+border: 2px solid red;
+margin-top: 108px;
+
+     }
+
+     .third-page-headline{
+        text-align: center;
+     }
+     .third-headline-h{
+color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+margin-top: 80px;
+     }
+
+     .third-headline-p{
+        color: rgb(13, 19, 33);
+font-size: 12px;
+font-weight: 400;
+margin-top: 40px;
+
+     }
