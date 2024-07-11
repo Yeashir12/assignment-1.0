@@ -189,8 +189,12 @@ border-radius: 16px;
 height: 220px;
 display: flex;
 margin: 0px 10px;
+
     }
 
+    .for-change{
+        list-style: none;
+    }
     .first-succ-head{
         color: rgba(13, 19, 33, 0.7);
 font-family: Azeret Mono;
@@ -215,7 +219,14 @@ height: 48px;
 display: flex;
 padding: 12px 20px 12px 20px;
         margin-top: 40px;
+        list-style: none;
+        
+        
 
+    }
+
+    .remv-ds{
+        text-decoration: none;
     }
     div ul li{
         list-style: none;
@@ -399,7 +410,13 @@ border-radius: 16px;
     .terget-button{
         margin-top: 20px;
         margin-left: 40px;
+        border: none;
+        border-bottom:1px solid #1e2f45;
+        
     }
+
+
+    
 
     .mother{
         display: inline-block;
